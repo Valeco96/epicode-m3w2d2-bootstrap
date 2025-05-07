@@ -74,16 +74,34 @@
       </div>
     </nav>
 
-    <h1>Your favorite artists</h1>
+    <div id="menu-buttons" class="mt-4 m-5 mb-5 hstack gap-3">
+      <a class="btn btn-primary" href="#" role="button">Tutto</a>
+      <button class="btn btn-primary" type="submit">Brani</button>
+      <input class="btn btn-primary" type="button" value="Artisti" />
+      <input class="btn btn-primary" type="submit" value="Playlist" />
+      <input class="btn btn-primary" type="reset" value="Album" />
+      <button class="btn btn-primary" type="submit">Podcast</button>
+      <button class="btn btn-primary" type="submit">Generi</button>
+    </div>
 
-    <div id="container">
-      <div id="row">
-        <div
-          class="card text-primary-emphasis bg-primary-subtle border border-primary-subtle"
-          style="width: 18rem"
-        >
+    <h1 class="m-5">Your Albums</h1>
+
+    <div class="container">
+      <div class="row hstack gap-5">
+        <div class="card col-3" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-3" style="width: 18rem">
           <img
-            src="https://blog.ticketmaster.it/wp-content/uploads/2023/07/articolobeatles.jpg.webp"
+            src="https://www.thebeatles.com/sites/default/files/styles/max_2600x2600/public/2021-06/Abbey%20Road.jpg?itok=_AGlITc8"
             class="card-img-top"
             alt="abbey-road-cover-image"
           />
@@ -92,16 +110,37 @@
             <p class="card-text">
               Abbey Road incorporates styles such as rock, pop, blues, and
               progressive rock. It is also notable for having a long medley of
-              songs.
+              song.
             </p>
-            <p>Band ~ The Beatles</p>
+            <p>Artists: The Beatles</p>
             <p>
-              Genre: Rock and roll, Pop Rock, Hard rock, Progressive Rock, Blues
-              Rock, Art Rock
+              Genre: Rock and roll, Pop rock, Hard rock, Rock progressivo, Blues
+              rock, Art rock
             </p>
-            <p>Duration: 47.54</p>
-            <a href="#" class="btn btn-primary">Play Album</a>
-            <a href="#" class="btn btn-primary">Songs list</a>
+            Duration: 47.54
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-3" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-3" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
