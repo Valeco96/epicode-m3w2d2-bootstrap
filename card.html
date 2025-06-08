@@ -17,7 +17,11 @@
     class="bs-success-bg-subtle bs-success-text-emphasis"
     style="background-color: #202020"
   >
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #2d3338;">
+    <nav
+      class="navbar navbar-expand-lg"
+      data-bs-theme="dark"
+      style="background-color: #2d3338"
+    >
       <div class="container-fluid">
         <img
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///8AAABJSUn6+vo5OTmzs7PCwsKGhobh4eFMTEzc3Nzu7u4TExODg4Px8fGjo6NpaWmvr68+Pj7GxsYqKipSUlIeHh5gYGBaWloNDQ0vLy/o6OiPj4+Xl5ckJCTNzc08PDxycnJ6enqTk5NqTBtgAAAD50lEQVR4nO3dbVeqQBSGYZXSeBE0K01Ks/7/fzwdlePLbJXBGZhnn+f+2lRcayECDmOvr71e1xvgPQrxoxA/CvGjED8K8aMQPwrxoxA/QZjFA9TirJYw7uEW1xIOut7MOxpQSGHwUUhh+FFIYfhRSGH4UUhh+FFIYfhRSGH44Qmj1G48mjAZ96d2vwElTIuH3415tPslHGE0nOw2RqkwGb9VG6NRmBcvRxujTvhv71QqTMar843RJMy3x061wmg4F3h6hMlI+OxWjzAtni/xVAiHiys8fGEyus4DF5aFsDmKhLf2TnDh71VR3RCF5dVjJ77w0ju7EmEyfrfzYQlT8bxTj3A2Mf+RKmH0Yv4fZcImeyiFFFLYgdC4S6NLuBolM83CyTD6PaVTK1wW+XaUUuFqnFSjVAq3e2eVPuGyOP0AVJvwsHdWKRN+maOUCR8iYxSFt6OQwuZRuEsQwsynqScsh0al3f8JXXh/FFLYPApdRSGFzaPQVRRS2DwKXUUhhc2j0FUUUtg8Cl1FIYXNo9BVFFLYPApdRSGFzaPQVRRSeEcqhVFaPlUlS23Cp8dNvLz4gDa88Onjug1dOHutwQMWJnUeX0YWftf1gQqTN/OvqRI+WvgghYUVEFD4aQfEE04tgXDCtS0QTZjbHEUhhZYrJeAJhQnayoR1zrShhdbHUTih8ISyLmGTVyGW8OKiHovv0b6x+W4CJExl3nx9POgLWSjupO+zkzHYdxOlRdfez1Y4xhZKC1udP+KLLRSAo/Mx0ELpQGM8cQYtFK6bXo1B0ELhUPphDIIWCvefzEdb/wOhudbXM4yw1l6am4PMF6uDujvSCIPmjlAndfduISznuXGlOq6zd3xhJ+1/ulId50coLT1zdtYm3aiayX/tvto78z7dT2+PcFWLV0/9w9VhtJF+/uyWtq/VK+DJzlhO5ZvF5juKi1q+i5ENJgtzDsY+YwklJ3kSCkvl3ezFh8/f3cQGy69arspSt3DuCL950P3N21196yWeLZedqZ03oe0rMXZv2+Xv0zXLlZ79HEh7Xj8htfr0ycsp6bZAPuVeuHYdCmOmgpeL+31BzDZZWX7hn1UhzBha5k5JZwUw6+vV4y7aa2Hm3sXz7Co/VxSHvM++jK7PvszWt//EfbUxg/bKV6z8uHJcrstZ0NmP10PMvtZmshuvx8mwDV+bTyOk0+9qd83mn2u/B9Cj2n5mJi/T1my7uv6uIP9RSGH4UUhh+FFIYfhRSGH4UUhh+FFIYfhRSGH4UUhh+FG4y9t0nhaKawmzeIBaLEzrkeah64pC/CjEj0L8KMSPQvwoxI9C/CjET7/wD0pZZ5okih1wAAAAAElFTkSuQmCC"
@@ -109,7 +113,20 @@
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-success"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+                >More details</a
+              >
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body bg-success">We we muchacha</div>
+            </div>
           </div>
         </div>
         <div class="card col-3" style="width: 18rem">
@@ -117,6 +134,7 @@
             src="https://www.thebeatles.com/sites/default/files/styles/max_2600x2600/public/2021-06/Abbey%20Road.jpg?itok=_AGlITc8"
             class="card-img-top"
             alt="abbey-road-cover-image"
+            width="100%"
           />
           <div class="card-body">
             <h5 class="card-title">Abbey Road</h5>
@@ -128,10 +146,11 @@
             <p>Artists: The Beatles</p>
             <p>
               Genre: Rock and roll, Pop rock, Hard rock, Rock progressivo, Blues
-              rock, Art rock
+              rock, Art rock <br />
+              Duration: 47.54
             </p>
-            Duration: 47.54
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <a href="#" class="btn btn-success">More details</a>
           </div>
         </div>
         <div class="card col-3" style="width: 18rem">
@@ -142,7 +161,7 @@
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-success">More details</a>
           </div>
         </div>
         <div class="card col-3" style="width: 18rem">
@@ -153,7 +172,7 @@
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-success">More details</a>
           </div>
         </div>
       </div>
